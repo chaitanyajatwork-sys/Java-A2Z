@@ -5,7 +5,7 @@ public class findnoinarrax {
         Scanner in= new Scanner(System.in);
         System.out.println("Enter 5 elements of array");
         int [] arr= new int[5];
-        int sum=0;
+
         int find;
         int findno;
         int flag=0;
