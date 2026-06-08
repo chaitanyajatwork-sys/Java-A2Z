@@ -1,3 +1,5 @@
+//nth TERM IF FIBONACCI
+
 import java.util.*;
 public class fibrecux {
 
