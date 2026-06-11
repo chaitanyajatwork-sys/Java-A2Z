@@ -4,6 +4,12 @@ class cylinder{
     private float height;
     private float radius;
 
+    public cylinder(float h,float r){
+        height=h;
+        radius=r;
+        
+    }
+
     public void setheight(float h){
         height=h;
     }
@@ -35,12 +41,12 @@ class cylinder{
 public class cyl {
     public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
-    cylinder in=new cylinder();
-    System.out.println("Enter height and radius of cylinder");
-    float h=sc.nextFloat();
-    float r=sc.nextFloat();
-    in.setheight(h);
-    in.setradius(r);
+    cylinder in=new cylinder(12,9);
+    // System.out.println("Enter height and radius of cylinder");
+    // float h=sc.nextFloat();
+    // float r=sc.nextFloat();
+    // in.setheight(h);
+    // in.setradius(r);
 
 
     
