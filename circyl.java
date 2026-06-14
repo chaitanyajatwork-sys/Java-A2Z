@@ -1,17 +1,13 @@
 class Circle{
     double r;
-
     public void setr(int radius){
         r=radius;
     }
-    
     public double cirArea(){
         return Math.PI*r*r;
         
     }
-
 }
-
 class Cyl extends Circle{
     double h;
     public void seth(int height){
@@ -21,9 +17,6 @@ class Cyl extends Circle{
         return Math.PI*r*r*h;
     }
 }
-
-
-
 public class circyl {
     public static void main(String[] args) {
         Circle c= new Circle();
@@ -34,8 +27,5 @@ public class circyl {
         System.out.println(c.cirArea());
         System.out.println(cl.r);
         System.out.println(cl.h);
-
-
     }
-    
 }
