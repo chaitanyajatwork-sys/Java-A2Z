@@ -21,8 +21,18 @@ public class trycatch{
             System.out.println("Entered value/index value:"+arr[ind]/value);
 
         }
+        catch(ArithmeticException e){
+            System.out.println("You cant divide by zero, Sorry Try Again!");
+            System.out.println(e);
+        }
+        catch(ArrayIndexOutOfBoundsException e){
+            System.out.println("Entered wrong index, Try Again!");
+            System.out.println(e);
+        }
+
         catch(Exception e){
-            System.out.println("Some error occured");
+            System.out.println("Some other error occured");
+            System.out.println(e);
         }
 
 
